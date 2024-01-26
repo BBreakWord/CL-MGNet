@@ -220,7 +220,7 @@ def main():
             best_acc = test_acc
 
     # test
-    checkpoint = torch.load('current_checkpoints/' + str(args.dataset) + '_tr-' + str(args.tr_percent) + '_' + model_name + '.pth')
+    checkpoint = torch.load('best_checkpoints/' + str(args.dataset) + '_tr-' + str(args.tr_percent) + '_' + model_name + '.pth')
     start_epoch = checkpoint['epoch']
     model.load_state_dict(checkpoint['state_dict'])
     
