@@ -16,6 +16,9 @@ In this paper, we propose a novel HSI classification framework named CL-MGNet, w
 - scikit-learn
 - matplotlib
 - scipy
+### Prepare datasets
+1. Download HSI datasets [[GoogleDrive](https://drive.google.com/drive/folders/1ThAcJscv0FotmLTvt4Af_pHe9zaH3KFI?usp=sharing)];
+2. Place the downloaded HSI dataset in the "data" folder.
 ### Train and Test
 Take Houston2018 dataset as example.
 ```python3
