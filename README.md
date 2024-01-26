@@ -5,7 +5,7 @@ Pytorch code for [Category-Level Band Learning-Based Feature Extraction for Hype
 ## Introduction
 In this paper, we propose a novel HSI classification framework named CL-MGNet, which can fully exploit the category-specific properties in spectral bands and obtain features with multiscale spatial information and global spectral properties.
 
-<img src="figs/farmwork.png" width="650px"/>
+<img src="figs/framework.png" width="650px"/>
 
 ## Code
 ### Prerequisite
