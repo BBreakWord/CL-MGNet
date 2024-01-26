@@ -16,7 +16,7 @@ In this paper, we propose a novel HSI classification framework named CL-MGNet, w
 - scikit-learn
 - matplotlib
 - scipy
-### Training and Testing
+### Train and Test
 Take Houston2018 dataset as example.
 ```python3
   python train.py --dataset Houston2018 --tr_percent 0.10 --epochs 500 --lr 1e-3 --spatialsize 13
