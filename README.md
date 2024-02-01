@@ -50,19 +50,19 @@ In this paper, we propose a novel HSI classification framework named CL-MGNet, w
 Run train.py for training and testing to obtain OA, AA, Kappa, classification accuracy for each category, and classification map.
 ```python3
 #For Indian Pines
-python train.py --dataset IP --tr_percent 0.15 --epochs 500 --lr 1e-3 --spatialsize 11
+python train.py --dataset IP --tr_percent 0.15 --epochs 500 --lr 1e-3 --spatialsize 11 --mu 10.0
 
 #For Pavia University
-python train.py --dataset PU --tr_percent 0.05 --epochs 500 --lr 1e-3 --spatialsize 13
+python train.py --dataset PU --tr_percent 0.05 --epochs 500 --lr 1e-3 --spatialsize 13 --mu 10.0
 
 #For Houston2013
-python train.py --dataset Houston2013 --tr_percent 0.15 --epochs 500 --lr 1e-3 --spatialsize 13
+python train.py --dataset Houston2013 --tr_percent 0.15 --epochs 500 --lr 1e-3 --spatialsize 13 --mu 10.0
 
 #For Dioni
-python train.py --dataset Dioni --tr_percent 0.10 --epochs 500 --lr 1e-3 --spatialsize 13
+python train.py --dataset Dioni --tr_percent 0.10 --epochs 500 --lr 1e-3 --spatialsize 13 --mu 10.0
 
 #For Houston2018
-python train.py --dataset Houston2018 --tr_percent 0.10 --epochs 500 --lr 1e-3 --spatialsize 13
+python train.py --dataset Houston2018 --tr_percent 0.10 --epochs 500 --lr 1e-3 --spatialsize 13 --mu 10.0
 ```
 ## Results
 <details>
