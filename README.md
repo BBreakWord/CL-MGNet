@@ -38,12 +38,11 @@ In this paper, we propose a novel HSI classification framework named CL-MGNet, w
 
 ## Code
 ### Prerequisite
-- python 3.7
-- pytorch 1.8.2
-- numpy
-- scikit-learn
-- matplotlib
-- scipy
+1. Create environment (Recommend to use [Anaconda](https://www.anaconda.com/));
+2. Install python packages.
+```python3
+  pip install -r requirements.txt
+```
 ### Prepare datasets
 1. Download HSI datasets [[GoogleDrive](https://drive.google.com/drive/folders/1ThAcJscv0FotmLTvt4Af_pHe9zaH3KFI?usp=sharing)];
 2. Place the downloaded HSI dataset in the "data" folder.
