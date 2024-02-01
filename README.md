@@ -23,13 +23,13 @@ In this paper, we propose a novel HSI classification framework named CL-MGNet, w
 <img src="figs/framework.png" width="650px"/>
 
 ## Models
-| Dataset          | HSI patch size | train_percent | OA(%) | AA(%) | Kappa  | Model Zoo    |
-| ---------------- | -------------- | ------------- | ----- | ----- | ------ | ------------ |
-| Indian Pines     | 11 × 11        | 15%           | 99.60 | 99.71 | 0.9954 | [GoogleDrive]() |
-| Pavia University | 13 × 13        |  5%           | 99.87 | 99.63 | 0.9983 | [GoogleDrive]() |
-| Houston2013      | 13 × 13        | 15%           | 99.87 | 99.78 | 0.9986 | [GoogleDrive]() |
-| Dioni            | 13 × 13        | 10%           | 99.32 | 97.69 | 0.9915 | [GoogleDrive]() |
-| Houston2018      | 13 × 13        | 10%           | 98.40 | 96.61 | 0.9789 | [GoogleDrive]() |
+| Dataset          | HSI patch size | training percentage | OA(%) | AA(%) | Kappa  | Model Zoo    |
+| :--------------: | :------------: | :-----------------: | :---: | :---: | :----: | :----------: |
+| Indian Pines     | 11 × 11        | 15%                 | 99.60 | 99.71 | 0.9954 | [GoogleDrive]() |
+| Pavia University | 13 × 13        |  5%                 | 99.87 | 99.63 | 0.9983 | [GoogleDrive]() |
+| Houston2013      | 13 × 13        | 15%                 | 99.87 | 99.78 | 0.9986 | [GoogleDrive]() |
+| Dioni            | 13 × 13        | 10%                 | 99.32 | 97.69 | 0.9915 | [GoogleDrive]() |
+| Houston2018      | 13 × 13        | 10%                 | 98.40 | 96.61 | 0.9789 | [GoogleDrive]() |
 
 ## Code
 ### Prerequisite
