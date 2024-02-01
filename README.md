@@ -64,7 +64,7 @@ python train.py --dataset Dioni --tr_percent 0.10 --epochs 500 --lr 1e-3 --spati
 #For Houston2018
 python train.py --dataset Houston2018 --tr_percent 0.10 --epochs 500 --lr 1e-3 --spatialsize 13
 ```
-### Results
+## Results
 <details>
 <summary><strong>Quantitative classification results for the Indian Pines dataset</strong> (click to expand) </summary>
 <img src = "figs/table1.png"> 
