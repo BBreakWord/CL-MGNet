@@ -38,7 +38,7 @@ In this paper, we propose a novel HSI classification framework named CL-MGNet, w
 
 ## Code
 ### Prerequisite
-1. Create environment (Recommend to use [Anaconda](https://www.anaconda.com/));
+1. Create python environment (Recommend to use [Anaconda](https://www.anaconda.com/));
 2. Install python packages.
 ```python3
   pip install -r requirements.txt
@@ -47,7 +47,7 @@ In this paper, we propose a novel HSI classification framework named CL-MGNet, w
 1. Download HSI datasets [[GoogleDrive](https://drive.google.com/drive/folders/1ThAcJscv0FotmLTvt4Af_pHe9zaH3KFI?usp=sharing)];
 2. Place the downloaded HSI dataset in the "data" folder.
 ### Training and Testing
-Run train.py for training and testing to obtain OA, AA, Kappa, classification accuracy for each category, and classification map.
+Run <strong>train.py</strong> for training and testing to obtain OA, AA, Kappa, classification accuracy for each category, and classification map.
 ```python3
 #For Indian Pines
 python train.py --dataset IP --tr_percent 0.15 --epochs 500 --lr 1e-3 --spatialsize 11 --mu 10.0
